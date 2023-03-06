@@ -1,0 +1,11 @@
+[project]
+name = "types-ocpp",
+version = "0.17",
+authors = [ { name = "Hugo O. Rivera", email = "hugo.rivera@powerflex.com" } ]
+packages = ["types-ocpp"]
+
+[project.urls]
+Homepage = "https://github.com/edf-re/types-ocpp",
+
+[tool.setuptools.dynamic]
+readme = {file = ["README.md"]}

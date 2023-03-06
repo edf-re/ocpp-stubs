@@ -2,10 +2,26 @@
 name = "types-ocpp",
 version = "0.17",
 authors = [ { name = "Hugo O. Rivera", email = "hugo.rivera@powerflex.com" } ]
-packages = ["types-ocpp"]
+repository = "https://github.com/edf-re/types-ocpp",
+license = "CC0"
+# The long description is made dynamically from the readme file.
+dynamic = ["readme"]
+readme = "README.md"
+# PEP 561 requires these
+dependencies = [
+    "ocpp>=0.17,<0.18",
+    'typing_extensions; python_version<"3.10"',
+]
 
-[project.urls]
-Homepage = "https://github.com/edf-re/types-ocpp",
+packages = [ { include = "types-ocpp/**/*.pyi" } ]
+
+classifiers = [
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.10',
+    'Programming Language :: Python :: 3.9',
+    'Programming Language :: Python :: 3.8',
+    'Programming Language :: Python :: 3.7'
+]
 
 [tool.setuptools.dynamic]
 readme = {file = ["README.md"]}

@@ -1,9 +1,8 @@
 [project]
-name = "types-ocpp",
-version = "0.17",
+name = "types-ocpp"
+version = "0.17"
 authors = [ { name = "Hugo O. Rivera", email = "hugo.rivera@powerflex.com" } ]
-repository = "https://github.com/edf-re/types-ocpp",
-license = "CC0"
+repository = "https://github.com/edf-re/types-ocpp"
 # The long description is made dynamically from the readme file.
 dynamic = ["readme"]
 readme = "README.md"

@@ -1,6 +1,6 @@
 [project]
 name = "ocpp-stubs"
-version = "0.17.0"
+version = "0.17.0-1"
 authors = [ { name = "Hugo O. Rivera", email = "hugo.rivera@powerflex.com" } ]
 readme = "README.md"
 # PEP 561 requires these

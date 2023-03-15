@@ -1,5 +1,8 @@
 # Stub package for OCPP
 
+<!-- Badges (images) related to Python package information -->
+[![PyPI - Version](https://img.shields.io/pypi/v/ocpp-stubs) ![PyPI - License](https://img.shields.io/pypi/l/ocpp-stubs) ![PyPI - Implementation](https://img.shields.io/pypi/implementation/ocpp-stubs) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/ocpp-stubs)](https://pypi.org/project/ocpp-stubs/)
+
 This is a PEP-561 compliant stub package for the [Python OCPP library](https://pypi.org/project/ocpp/).
 # License
 

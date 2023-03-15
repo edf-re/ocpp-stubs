@@ -1,5 +1,5 @@
 [project]
-name = "types-ocpp"
+name = "ocpp-stubs"
 version = "0.17.0"
 authors = [ { name = "Hugo O. Rivera", email = "hugo.rivera@powerflex.com" } ]
 readme = "README.md"
@@ -18,4 +18,8 @@ classifiers = [
 ]
 
 [project.urls]
-repository = "https://github.com/edf-re/types-ocpp"
+repository = "https://github.com/edf-re/ocpp-stubs"
+
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
